@@ -1,11 +1,19 @@
 package jUnitTests;
 
+import Listeners.Listener;
+import jdk.jfr.Enabled;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledIf;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 import org.junit.jupiter.api.condition.DisabledOnOs;
 import org.junit.jupiter.api.condition.OS;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+import java.time.DayOfWeek;
+import java.time.LocalDateTime;
+
+@ExtendWith(Listener.class)
 public class DisableEnableTest {
 
     @Test
@@ -25,9 +33,14 @@ public class DisableEnableTest {
     disabledReason = "Disabled for demo of @DisabledIfSystemProperty")
     void thirdTest () { System.out.println("I'm the third test"); }
 
-    @Test
+    @Test   // the "value" means the "Name of a METHOD", in this case
+    @DisabledIf(value = "provider", disabledReason = "Disabled for demo of DisabledIf")
     void fourthTest (){
         System.out.println("I'm the fourth test");
+    }
+
+    boolean provider() {
+        return LocalDateTime.now().getDayOfWeek().equals(DayOfWeek.WEDNESDAY);
     }
 
     @Test

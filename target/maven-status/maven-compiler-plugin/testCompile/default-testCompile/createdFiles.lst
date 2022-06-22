@@ -1,3 +1,10 @@
+jUnitTests\AssertionsTestClass.class
 jUnitTests\ParamProvider.class
-jUnitTests\FirstTestClass.class
+jUnitTests\DisableEnableTest.class
+jUnitTests\OrderedTestClass2.class
+jUnitTests\AssumptionsTest.class
+jUnitTests\RepeatedTests.class
 jUnitTests\ParameterizedTests.class
+jUnitTests\FirstTestClass.class
+jUnitTests\TaggedTestClass.class
+jUnitTests\OrderedTestClass1.class

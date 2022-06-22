@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="jUnitTests.ParameterizedTests" time="0.169" tests="39" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="jUnitTests.RepeatedTests" time="0.016" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,43 +56,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="methodSource_StringDoubleList{String, double}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringDoubleList{String, double}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_String{String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_String{String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_String{String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringStream{String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringStream{String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringStream{String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringDoubleStream{String, double}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="methodSource_StringDoubleStream{String, double}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[1]" classname="jUnitTests.ParameterizedTests" time="0.015"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[4]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[5]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[6]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[7]" classname="jUnitTests.ParameterizedTests" time="0.023"/>
-  <testcase name="csvFileSource_StringDoubleIntStringString{String, double, int, String, String}[8]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringIntBoolean{String, int, boolean}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringIntBoolean{String, int, boolean}[2]" classname="jUnitTests.ParameterizedTests" time="0.016"/>
-  <testcase name="csvSource_StringIntBoolean{String, int, boolean}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_CustomDelimiter{String, String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_CustomDelimiter{String, String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="intValues{int}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="intValues{int}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="intValues{int}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="stringValues{String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="stringValues{String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="stringValues{String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="stringValues{String}[4]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringString{String, String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringString{String, String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringString{String, String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringWithComma{String, String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvSource_StringWithComma{String, String}[2]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringStringCustomDelimiter{String, double, int, String, String}[1]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringStringCustomDelimiter{String, double, int, String, String}[2]" classname="jUnitTests.ParameterizedTests" time="0.015"/>
-  <testcase name="csvFileSource_StringDoubleIntStringStringCustomDelimiter{String, double, int, String, String}[3]" classname="jUnitTests.ParameterizedTests" time="0"/>
-  <testcase name="csvFileSource_StringDoubleIntStringStringCustomDelimiter{String, double, int, String, String}[4]" classname="jUnitTests.ParameterizedTests" time="0"/>
+  <testcase name="secondRepeatedMethod[1]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="secondRepeatedMethod[2]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="secondRepeatedMethod[3]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="firstRepeatedMethod[1]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="firstRepeatedMethod[2]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="firstRepeatedMethod[3]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="firstRepeatedMethod[4]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="firstRepeatedMethod[5]" classname="jUnitTests.RepeatedTests" time="0.016"/>
+  <testcase name="thirdRepeatedMethod{RepetitionInfo}[1]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="thirdRepeatedMethod{RepetitionInfo}[2]" classname="jUnitTests.RepeatedTests" time="0"/>
+  <testcase name="thirdRepeatedMethod{RepetitionInfo}[3]" classname="jUnitTests.RepeatedTests" time="0"/>
 </testsuite>
